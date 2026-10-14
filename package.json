@@ -1,0 +1,29 @@
+{
+  "name": "portfree",
+  "version": "0.1.0",
+  "description": "Zero-dependency answer to \"port already in use?\": list listening ports, check, find a free one, kill the holder.",
+  "type": "module",
+  "bin": {
+    "portfree": "./bin/portfree.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "ports",
+    "eaddrinuse",
+    "devtools",
+    "cli",
+    "networking",
+    "dx",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayhanlimon/portfree.git"
+  }
+}

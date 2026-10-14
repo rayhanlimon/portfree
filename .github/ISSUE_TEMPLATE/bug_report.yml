@@ -1,0 +1,12 @@
+---
+name: Bug report
+about: Wrong port info or unexpected behavior
+title: "[bug] "
+labels: bug
+body:
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: OS, command run, expected vs actual output
+---
